@@ -176,7 +176,6 @@ th,td {
     font-size: 30px;
     color: #747B8F;
     text-decoration-line: line-through;
-    margin-right: 25px;
 }
 
 .price-2{
@@ -321,4 +320,128 @@ hr{
 .link p {
     color: #747B8F;
     font-size: 16px;
+}
+
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3B3B3B;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .submenu:hover #carrito {
+        min-width: 100%;
+    }
+    .mySwiper-1 {
+        width: 300px;
+    }
+
+    .swiper-slide{
+        padding: 0 30px 50px 30px;
+    }
+
+    .heder-content{
+        padding: 100px 0 50px 0;
+    }
+
+    .header-info{
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt{
+        width: 100%;
+    }
+
+    .header-txt h1{
+        font-size: 40px;
+    }
+    
+    .header-img{
+        width: 100%;
+    }
+
+    .header-img img{
+        width: 200px;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+
+    .prices-1{
+        margin: 0;
+    }
+
+    .btn-1{
+        margin: 20px 0;
+    }
+
+    .promos{
+        padding: 30px;
+    }
+
+    .promos h2{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .categories{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .categorie{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .categorie-1 {
+        width: 100%;
+        margin-bottom: 25px;
+        order: -1;
+    }
+
+    .categorie-img{
+        width: 100%;
+    }
+
+    .products{
+        padding: 30px;
+    }
+
+    .products h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link{
+        width: 100%;
+    }
 }
