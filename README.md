@@ -1,4 +1,4 @@
-¡Bienvenido a mi proyecto de HTML, CSS y JavaScript!
+🎙️ ¡Bienvenido a mi proyecto de HTML, CSS y JavaScript! 🎙️
 
 Este proyecto representa un emocionante retorno a la programación después de una pausa. Comenzando con los fundamentos básicos de desarrollo web, he creado una página dedicada a la venta de productos aromáticos diseñados tanto para hogares acogedores como para entornos profesionales, como oficinas.
 
@@ -8,4 +8,4 @@ Aunque actualmente está en una fase inicial, este proyecto está en constante e
 
 Este proyecto no solo demuestra mis habilidades técnicas, sino también mi capacidad para abordar desafíos y mi dedicación para alcanzar los objetivos previamente vistos
 
-Unite a mí en este viaje de crecimiento y aprendizaje continuo!
+ 🙌 Unite a mí en este viaje de crecimiento y aprendizaje continuo! 🙌
