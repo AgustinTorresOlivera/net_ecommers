@@ -3,335 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommers
-    </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-/>
-    <link rel="stylesheet" href="style.css">
+    <title>Essenciana</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="fonts.google.com/specimen/Playfair+Display?preview.text=Holanda%20como%20andamos">
+    <link rel="stylesheet" href="styleIndex.css">
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <a href="#" class="logo">Logo</a>
-            <input type="checkbox" id="menu">
-            <label for="menu"><img src="imagenes/menu1.png " class="menu-icono" alt=""></label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contactos</a></li>
-                </ul>
-            </nav>
-            <div>
-                <ul>
-                    <li class="submenu">
-                    <img src="imagenes/carss.png" id="img-carrito" alt="">
-                    <div id="carrito">
-                        <table id="lista-carrito">
-                            <thead>
-                                <tr>
-                                    <th>Articulo</th>
-                                    <th>Nombre</th>
-                                    <th>Precio</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                        <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
-                    </div>
-                </li>
-                </ul>
-            </div>
+    <header class="nav">
+        <div class="productcard-header-icon">
+        <img src="/Design/essenciana-logo.svg"  class="logo" alt="">
         </div>
-        <div class="header-content container"> 
-            <div class="swiper mySwiper-1">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="header-info">
-                            <div class="header-txt">
-                                <h1>Vela bubble</h1>
-                                <div class="prices">
-                                    <p class="price-1">$12000</p>
-                                    <p class="price-2">$10000</p>
-                                </div>
-                                <a href="#" class="btn-1">Informacion</a>
-                            </div>
-                            <div class="header-img">
-                                <img src="imagenes/fdcfc9_6a8dc027d9c44a96927f7d84b31b630d~mv2.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="header-info">
-                            <div class="header-txt">
-                                <h1>Esencia Para Humificador 15 Ml</h1>
-                                <div class="prices">
-                                    <p class="price-1">$8500</p>
-                                    <p class="price-2">$5500</p>
-                                </div>
-                                <a href="#" class="btn-1">Informacion</a>
-                            </div>
-                            <div class="header-img">
-                                <img src="imagenes/7d4961_0ff887224338489384a47e582d0ff0c0~mv2.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="header-info">
-                            <div class="header-txt">
-                                <h1>Difusor Para Auto De Vidrio</h1>
-                                <div class="prices">
-                                    <p class="price-1">$6520</p>
-                                    <p class="price-2">$5650</p>
-                                </div>
-                                <a href="#" class="btn-1">Informacion</a>
-                            </div>
-                            <div class="header-img">
-                                <img src="imagenes/fdcfc9_5079498fc14946dca72982ff059131ff~mv2.jpeg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
+        <div class="productcard-header-actions">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
         </div>
     </header>
-    <hr>
-    <section class="promos container" id="lista-1">
-        <h2>Promociones</h2>
-        <div class="categories">
-            <div class="categorie">
-                <div class="categorie-1">
-                    <h3>Promo 1</h3>
-                    <div class="prices">
-                        <p class="price-1">$9600</p>
-                        <p class="precio">$7000</p>
-                    </div>
-                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
-                </div>
-                <div class="categorie-img">
-                    <img src="imagenes/ph1.jpg" alt="">
-                </div>
+            <div class="banner">
+                <img src="/public/imagenes a usar/banner2.png" alt=""> 
             </div>
-                <div class="categorie">     
-                    <div class="categorie-1">
-                        <h3>Promo 2</h3>
-                        <div class="prices">
-                            <p class="price-1">$8900</p>
-                            <p class="precio">$5500</p>
-                        </div>
-                        <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+        <main>
+            <p class="title">Ofertás del mes de julio!</p>           
+            <section class="box-flex">
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Cortinas HiZu XXL RIEL.png" alt="Cortina Roller">
+                    <div class="info">
+                    
+                    <div class="box-linea">
+                    <p class="precios">$6.770</p>
+                    <p class="desc">40% OFF</p>
                     </div>
-                    <div class="categorie-img">
-                        <img src="imagenes/ph2.jpg" alt="">
+                    <p class="descripcion">Cortina Roller</p>
                     </div>
-                </div>
-                    <div class="categorie">
-                        <div class="categorie-1">
-                            <h3>Promo 3</h3>
-                            <div class="prices">
-                                <p class="price-1">$5000</p>
-                                <p class="precio">$4200</p>
-                            </div>
-                            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
-                        </div>
-                        <div class="categorie-img">
-                            <img src="imagenes/ph3.jpg" alt="">
-                        </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Funda de Edredón de Tusor Pesado CRUDO.png" alt="Sobre cama blanco">
+                    <div class="info">
+                    <div class="box-linea">
+                    <p class="precios">$86.000</p>
+                    <p class="desc">9% OFF</p>
                     </div>
-                        <div class="categorie">
-                            <div class="categorie-1">
-                                <h3>Promo 4</h3>
-                                <div class="prices">
-                                    <p class="price-1">$6800</p>
-                                    <p class="precio">$7800</p>
-                                </div>
-                                <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
-                            </div>
-                            <div class="categorie-img">
-                                <img src="imagenes/ph4.jpg" alt="">
-                            </div>
-                        </div>
-        </div>
-    </section>
-    <hr>
-    <section class="products container" id="lista-2">
-        <h2>Nuevos Productos</h2>
-        <div class="swiper mySwiper-2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph1.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Perfume Spa 300 ml</h3>
-                            <p>Somos una fabrica y distribuidor de Pierre Balmain, Cacharel
-                                , Palette, Alcoyana, Franco Valente, Cdi y Hotel.Blanqueria mayorista y para el hogar,
-                                hoteleria e instituciones de salud.</p>
-                                <p class="precio">$10000</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
-                        </div>
+                    <p class="descripcion">Sobre cama blanco</p>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph2.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Difusor De Aroma 250Ml</h3>
-                            <p>Este difusor de plastico 250Ml es perfecto para brindar calidez con sus distintas fragancias en la sala de estar, living,
-                            baño o habitacion de tu casa.Hace que tus momentos sean mas acogedores con estas fragancias de excelente 
-                            calidad, dandote confort y sofisticacion a tus ambientes.</p>
-                            <p class="precio">$12700</p>
-                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
-                        </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Ropa de cama.png" alt="Sobre cama XL">
+                    <div class="info">
+                    
+                    <div class="box-linea">
+                    <p class="precios">$70.500</p>
+                    <p class="desc">10% OFF</p>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph3.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Difusor De Aroma 100 Ml</h3>
-                            <p>Este difusor de vidrio 100 Ml es perfecto para brindar calidez con sus distintas fragancias en la sala de estar, living,
-                            baño o habitacion de tu casa.Hace que tus momentos sean mas acogedores con estas fragancias de 
-                            excelente calidad, dandote confort y sofisticacion a tus ambientes.</p>
-                                <p class="precio">$11500</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
-                        </div>
+                    <p class="descripcion">Sobre cama PACK XL</p>
                     </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Gasa Tusor Para Riel.png" alt="DISNEY">
+                    <div class="info">
+                    
+                    <div class="box-linea">
+                    <p class="precios">$23.200</p>
+                    <p class="desc">5% OFF</p>
+                    </div>
+                    <p class="descripcion">Cortina de DISNEY</p>
+                    </div>
+                </article>
+            </section>
+                <p class="title">Ingresos de la semana</p>
+            <section class="box-flex">   
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Funda de Edredón de Tusor Pesado Gris + Fundas de Almohadón.png" alt="Cafetera Moulinex">
+                        <div class="info">
+                        <div class="box-linea">
+                            <p class="precios">$45.500</p>
+                        </div>
+                    <p class="descripcion">Cubre cama gris</p>
+                    </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Cortinas con riel.png" alt="Cortina Roller">
+                    <div class="info">
+                    <div class="box-linea">
+                    <p class="precios">$65.000</p>
+                    </div>
+                    <p class="descripcion">Cortina Roller con riel</p>
+                    </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/Perfume1.png" alt="Geronio perfume">
+                    <div class="info">
+                    <div class="box-linea">
+                    <p class="precios">$25.000</p>
+                    </div>
+                    <p class="descripcion">Geronio perfume</p>
+                    </div>
+                </article>
+                <article class="modificar">
+                    <img src="/public/imagenes a usar/perfume2.png" alt="Keep calm">
+                    <div class="info">
+                    <div class="box-linea">
+                    <p class="precios">$22.000</p>
+                    </div>
+                    <p class="descripcion">Keep calm terapia</p>
+                    </div>
+                </article>
+            </section>
+        </main>
 
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph4.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Perfume Para Ambiente 250 Ml</h3>
-                            <p>Somos fabrica y distribuidor de Pierre Balmain, Cacharel
-                                , Palette, Alcoyana, Franco Valente, Cdi y Hotel.</p>
-                                <p class="precio">$7800</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-
-    <hr>
-    <section class="products container" id="lista-3">
-        <h2>Productos</h2>
-        <div class="swiper mySwiper-2">
-            
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph1.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Perfume Spa 300 ml</h3>
-                            <p>Somos fabrica y distribuidor de Pierre Balmain, Cacharel
-                                , Palette, Alcoyana, Franco Valente, Cdi y Hotel.Blanqueria mayorista y para el hogar,
-                                hoteleria e instituciones de salud.</p>
-                                <p class="precio">$10000</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph2.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Difusor De Aroma 250Ml</h3>
-                            <p>Este difusor de plastico 250Ml es perfecto para brindar calidez con sus distintas fragancias en la sala de estar, living,
-                            baño o habitacion de tu casa.Hace que tus momentos sean mas acogedores con estas fragancias de excelente 
-                            calidad, dandote confort y sofisticacion a tus ambientes.</p>
-                            <p class="precio">$12700</p>
-                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph3.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Difusor De Aroma 100 Ml</h3>
-                            <p>Este difusor de vidrio 100 Ml es perfecto para brindar calidez con sus distintas fragancias en la sala de estar, living,
-                            baño o habitacion de tu casa.Hace que tus momentos sean mas acogedores con estas fragancias de 
-                            excelente calidad, dandote confort y sofisticacion a tus ambientes.</p>
-                                <p class="precio">$11500</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="product">
-                        <img src="imagenes/ph4.jpg" alt="">
-                        <div class="product-txt">
-                            <h3>Perfume Para Ambiente 250 Ml</h3>
-                            <p>Somos fabrica y distribuidor de Pierre Balmain, Cacharel
-                                , Palette, Alcoyana, Franco Valente, Cdi y Hotel.</p>
-                                <p class="precio">$7800</p>
-                                <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-
-    <footer class="footer container">
-        <div class="link">
-            <h3>Lorem</h3>
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-        </div> 
-        <div class="link">
-            <h3>Lorem</h3>
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-        </div> 
-        <div class="link">
-            <h3>Lorem</h3>
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-        </div> 
-        <div class="link">
-            <h3>Lorem</h3>
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-        </div> 
-        <div class="link">
-            <h3>Lorem</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum amet
-                similique dolorum tempore cupiditate, nulla culpa quibusdam veniam ab sed ex,
-                neque vel quod facilis unde sit perspiciati officia odit?
-            </p>
-        </div> 
-
-    </footer>
+        <footer >
+            <section class="centrado">
+                    <h3>Nuestras redes:</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i>Essenciana</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>essenciana.lr</a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i>Essenciana</a></li>
+                    </ul>
+                 </section>
+                 <img src="/Design/essenciana-logo.svg"  class="logo-footer" alt="">
+                <section class="centrado">
+                    <h3>Contactanos:</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i>+5493804506892</li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i>Essen@gmail.com</a></li>
+                        <li><i class="fa-solid fa-map"></i>Av. Rivadavia 1024</li>
+                    </ul>
+                 </section>
+            </footer>
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
